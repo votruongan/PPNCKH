@@ -1,0 +1,12 @@
+MODEL:
+    ANCHOR:
+        RATIOS: [0.5, 1, 2]
+        SCALES: [1, 1.26, 1.59]
+TRAIN:
+    IMAGE:
+        MIN_SIDE: 600
+        MAX_SIDE: 1024
+TEST:
+    IMAGE:
+        MIN_SIDE: 600
+        MAX_SIDE: 1024
